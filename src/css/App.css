@@ -215,4 +215,63 @@ hr {
   /* border:solid green; */
 }
 
+.card-wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* border: solid red; */
+}
+
+.card-wrapper::before {
+  content: '';
+  display: flex;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 80%;
+  display: block;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.card-wrapper h2 {
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.card-wrapper p {
+
+  visibility: visible;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  filter: unset;
+}
+
+.card:hover > .card-wrapper::before {
+  height: 290px;
+  width: 290px;
+  opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+  opacity: 1;
+  visibility: visible;
+  font-size: 14px;
+}
+
 
