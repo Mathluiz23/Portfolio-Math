@@ -5,7 +5,6 @@ import ProjetosList from '../components/ProjetosList';
 import PortfolioContext from '../context/PortfolioContext';
 import '../css/App.css';
 
-
 export default function Projetos() {
   const { themePortfolio } = useContext(PortfolioContext);
     return (
