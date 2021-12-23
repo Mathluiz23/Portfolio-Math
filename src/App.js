@@ -2,6 +2,7 @@ import { Route, Routes} from 'react-router-dom';
 import Home from './Pages/Home';
 import Projetos from './Pages/Projetos';
 import PortfolioProvider from './context/PortfolioProvider';
+import '../src/css/App.css';
 
 function App() {
   return (
