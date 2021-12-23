@@ -31,4 +31,41 @@
     width: 350px;
     color: rgb(187, 187, 187);
 }
+  
+  
+.social-media-ligth {
+    display: flex;
+    justify-content: flex-end;
+    /* border: solid green; */
+    width: 90%;
+    margin-top: 20px;
+}
+  
+.social-media-ligth a{
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+}
+  
+a:hover {
+    color:rgb(45, 171, 255);
+    transform: translate3d(180);
+}
+  
+.social-media-dark {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 20px;
+}
+  
+.social-media-dark a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
 
+a:hover {
+    color:rgb(45, 171, 255);
+    transform: translate3d(0px, -5px, 0px);
+}
