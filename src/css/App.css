@@ -54,3 +54,56 @@ hr {
   box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
 }
 
+.quem-sou-ligth{
+  flex-direction: column;
+  width: 740px;
+  height: max-content;
+  margin-top: 150px;
+  padding: 8px;
+ }
+
+ .quem-sou-ligth h1{
+  font-size:6vh;
+   transform-style: flat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(45, 171, 255);
+}
+
+.quem-sou-ligth h1:hover{
+   color: rgb(133, 202, 248);
+}
+
+ .quem-sou-ligth p{
+  font-size: 3.5vh;
+  margin: 15px 0px;
+ }
+
+ .quem-sou-dark {
+  display: flex;
+  flex-direction: column;
+  width: 740px;
+  height: max-content;
+  margin-top: 150px;
+  padding: 8px;
+ }
+
+ .quem-sou-dark h1{
+  font-size:5vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(45, 171, 255);
+}
+
+.quem-sou-dark h1:hover{
+   color: rgb(133, 202, 248);
+}
+
+ .quem-sou-dark p{
+  font-size: 3.5vh;
+  margin: 15px 0px;
+  color: white;
+ }
+ 
