@@ -1,9 +1,9 @@
-import React from 'react';
-
+import React, { useContext } from 'react';
+import PortfolioContext from '../context/PortfolioContext';
 import '../css/App.css';
 
 export default function ProjetosList() {
-   
+    const { themePortfolio} = useContext(PortfolioContext);
     return (
         <div>
 
@@ -15,7 +15,7 @@ export default function ProjetosList() {
               </div>
               
             </div>
-            <div>
+            <div className={ themePortfolio ? "card-text-ligth" : "card-text-dark"}>
               Aqui contém um projeto realizado na Trybe, no curso de desenvolvimento Web. Colocando em prática os conhecimentos adquiridos.
             </div> 
           </div>
