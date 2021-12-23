@@ -1,0 +1,260 @@
+
+.header-ligth {
+    z-index: 10;
+    display: flex;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: 0px 6px 5px rgb(180, 180, 180);
+}
+  
+.header-ligth p{
+    font-size: 60px;
+    margin: -14px -2px;
+    color: rgb(45, 171, 255);
+}
+  
+.header-dark {
+    z-index: 10;
+    display: flex;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    box-shadow: 0px 2px 10px rgb(45, 171, 255);;
+    
+}
+  
+.header-dark p{
+    font-size: 60px;
+    margin: -14px -2px;
+    color: rgb(45, 171, 255);
+}
+
+.header-container-ligth h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 8px 8px;
+    margin-left:20px;
+}
+  
+.header-container-dark h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 8px 8px;
+    margin-left:20px;
+    color:white;
+}
+
+.button-select-dark{
+    margin-left: 20px;
+    border-style: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.button-select-ligth{
+    margin-left: 20px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+/* MENU 3 TRAÇOS COM ANIMAÇÃO */
+
+.checkbox {
+    height: 80px;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 11;
+    transition: 80ms ease-in-out 0s;
+    
+}
+  
+.checkbox .trace-ligth {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.8s ease-in-out;
+}
+  
+.checkbox .trace-ligth:nth-child(1) {
+    top: 14px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-ligth:nth-child(2) {
+    top: 34px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-ligth:nth-child(3) {
+    top: 54px;
+    transform: rotate(0);
+}
+  
+  /* MENU DARK COM TRAÇO BRANCO */
+.checkbox .trace-dark {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.8s ease-in-out;
+}
+  
+.checkbox .trace-dark:nth-child(1) {
+    top: 14px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-dark:nth-child(2) {
+    top: 34px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-dark:nth-child(3) {
+    top: 54px;
+    transform: rotate(0);
+}
+  /* MENU DARK COM TRAÇO BRANCO */
+  
+#toggle {
+    display: none;
+}
+
+/* animação do menu */
+
+#toggle:checked + .checkbox .trace-ligth:nth-child(1) {
+    transform: rotate(45deg);
+    top: 47px;
+  
+}
+  
+#toggle:checked + .checkbox .trace-ligth:nth-child(2) {
+    transform: translate(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;  
+}
+  
+#toggle:checked + .checkbox .trace-ligth:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 48px; 
+}
+  
+  /* MENU DARK TRAÇO BRANCO */
+#toggle:checked + .checkbox .trace-dark:nth-child(1) {
+    color: white;
+    transform: rotate(45deg);
+    top: 47px;
+  
+}
+  
+#toggle:checked + .checkbox .trace-dark:nth-child(2) {
+    color: white;
+    transform: translate(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;  
+}
+  
+#toggle:checked + .checkbox .trace-dark:nth-child(3) {
+    color: white;
+    transform: rotate(-45deg);
+    top: 48px; 
+}
+  
+  /* MENU BRANCO TRAÇO DARK */
+  
+#toggle:checked + .checkbox {
+    background-color: #363636;
+}
+  
+#toggle:checked ~ .menu {
+    box-shadow: -120px 100px 20px 1180px #363636;
+    z-index: 1;
+}
+  
+#toggle:checked ~ .menu-items {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* Responsividade */
+
+@media screen and
+(min-width: 200px) and
+(max-width: 640px) {
+
+    .header-ligth p{
+      font-size: 45px;
+      margin: -2px -2px;
+      color: rgb(45, 171, 255);
+    }
+      
+    .header-dark p{
+      font-size: 45px;
+      margin: -2px -2px;
+      color: rgb(45, 171, 255);
+    }
+    
+    .header-container-ligth h1 {
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin: 18px 8px;
+      margin-left:20px;
+    }
+      
+    .header-container-dark h1 {
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin: 18px 8px;
+      margin-left:20px;
+      color:white;
+    }
+    
+    .button-select-dark{
+      margin-left: 20px;
+      border-style: none;
+      background-color: rgb(0, 0, 0);
+      color: #ffffff;
+    }
+    
+    .button-select-ligth{
+      margin-left: 20px;
+      border-style: none;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    .checkbox .trace-ligth {
+        width: 40px;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        border-radius: 10px;
+        transition: 0.8s ease-in-out;
+    }
+
+    .checkbox .trace-dark {
+        width: 40px;
+        height: 4px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        border-radius: 10px;
+        transition: 0.8s ease-in-out;
+    }
+}
