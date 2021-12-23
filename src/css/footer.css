@@ -69,3 +69,92 @@ a:hover {
     color:rgb(45, 171, 255);
     transform: translate3d(0px, -5px, 0px);
 }
+
+/* Responsividade */
+@media screen and
+(min-width: 200px) and
+(max-width: 640px) {
+
+.footer-ligth {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom ,rgb(155, 232, 255),rgb(235, 235, 235),rgb(235, 235, 235), rgb(235, 235, 235), rgb(235, 235, 235), rgb(235, 235, 235), rgb(235, 235, 235),rgb(245, 245, 245), rgb(255, 255, 255),  rgb(255, 255, 255));
+  }
+
+  .info-footer-ligth {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left:2px;
+    width: 120px;
+    height: 120px;
+    font-size: 14px;
+  }
+  
+  .footer-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom ,rgb(31, 31, 31),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),  rgb(0, 0, 0));  
+  }
+
+  .info-footer-dark {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left:2px;
+    width: 120px;
+    height: 120px;
+    font-size: 14px;
+    color: rgb(187, 187, 187);
+  }
+  
+  
+  .social-media-ligth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 150px;
+    margin-top: 0;
+  }
+  
+  .social-media-ligth a{
+    text-decoration: none;
+    color: inherit;
+    width: 35px;
+  }
+  
+  a:hover {
+    color:rgb(36, 110, 40);
+    transform: translate3d(180);
+  }
+  
+  .social-media-dark {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 150px;
+  margin-top: 0px;
+  }
+  
+  .social-media-dark a{
+    text-decoration: none;
+    color: white;
+    width: 35px;
+   
+  }
+
+  a:hover {
+    color:rgb(45, 171, 255);
+    transform: translate3d(0px, -5px, 0px);
+  }
+}
