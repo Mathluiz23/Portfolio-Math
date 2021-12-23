@@ -403,3 +403,180 @@ hr {
   margin-left: 10px;
   color: rgb(223, 223, 223);
 }
+
+
+
+
+
+
+/* RESPOSIVIDADE MOBILE */
+
+
+
+@media screen and
+(min-width: 200px) and
+(max-width: 640px) {
+
+  .quem-sou-dark {
+    width: 180px;
+    height: 350px;
+    margin-top: 110px;
+   }
+
+   .quem-sou-dark h1{
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(45, 171, 255);
+  }
+  
+  .quem-sou-dark h1:hover{
+     color: rgb(133, 202, 248);
+  }
+  
+   .quem-sou-dark p{
+    font-size: 11px;
+    margin: 15px 0px;
+    color: white;
+   }
+
+   .quem-sou-ligth{
+    width: 180px;
+    height: 350px;
+    margin-top: 110px;
+   }
+  
+  .quem-sou-ligth h1{
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(45, 171, 255);
+  }
+  
+  .quem-sou-ligth h1:hover{
+     color: rgb(133, 202, 248);
+  }
+  
+  .quem-sou-ligth p{
+    font-size: 11px;
+    margin: 15px 0px;
+  }
+
+  .body-home-ligth{
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  .body-home-ligth img{
+    margin: 10px;
+    width: 85%;
+    height: 220px;
+    margin-top: 170px;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
+  }
+  
+  .body-home-dark{
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  .body-home-dark img{
+    margin: 10px;
+    width: 85%;
+    height: 220px;
+    margin-top: 170px;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
+  }
+
+  .hardSkills-card-ligth h2{
+    font-size: 12px;
+    margin-top: 30px;
+  }
+
+  .hardSkills-card-ligth {
+    margin-top: 50px;
+    border: ridge rgb(212, 212, 212);
+    border-radius: 20px;
+    background-color: rgb(238, 238, 238);
+    width: 120px;
+    height: 120px;
+  
+  }
+  .hardSkills-card-ligth a{
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    color: rgb(45, 171, 255);
+  
+  }
+  
+  .hardSkills-card-dark h2{
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  
+  .hardSkills-card-dark {
+    margin-top: 50px;
+    border: ridge rgb(45, 171, 255);
+    border-radius: 20px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(0, 0, 0);
+    width: 120px;
+    height: 120px;
+  }
+
+  .hardSkills-card-dark a{
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    color: rgb(45, 171, 255);
+    /* border: solid orange; */
+  }
+  
+
+  .hardskills-ligth {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-size: 13px;
+  }
+  
+  .hardskills-ligth a{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -5px;
+    color: rgb(133, 202, 248);
+    width: 30px;
+  }
+  
+  .hardskills-dark {
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 187, 187);
+    margin-left: 20px;
+    margin-top: -20px;
+    font-size: 13px;
+  }
+  
+  .hardskills-dark a{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -5px;
+    width: 30px;
+    color: rgb(223, 223, 223);
+  }
+}
