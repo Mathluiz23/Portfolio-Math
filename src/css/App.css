@@ -422,7 +422,7 @@ hr {
     width: 100%;
     height: 220px;
     margin-top: 110px;
-    /* border: solid yellow; */
+    overflow:auto;
    }
 
    .quem-sou-dark h1{
@@ -448,6 +448,7 @@ hr {
     width: 100%;
     height: 220px;
     margin-top: 110px;
+    overflow:auto;
    }
   
   .quem-sou-ligth h1{
