@@ -418,9 +418,10 @@ hr {
 (max-width: 780px) {
 
   .quem-sou-dark {
-    width: 60%;
-    height: 350px;
+    width: 80%;
+    height: 220px;
     margin-top: 110px;
+    /* border: solid yellow; */
    }
 
    .quem-sou-dark h1{
@@ -437,12 +438,12 @@ hr {
   
    .quem-sou-dark p{
     font-size: 11px;
-    margin: 15px 0px;
+    margin: 25px 0px;
     color: white;
    }
 
    .quem-sou-ligth{
-    width: 60%;
+    width: 80%;
     height: 350px;
     margin-top: 110px;
    }
@@ -461,7 +462,7 @@ hr {
   
   .quem-sou-ligth p{
     font-size: 11px;
-    margin: 15px 0px;
+    margin: 25px 0px;
   }
 
   .body-home-ligth{
@@ -472,7 +473,7 @@ hr {
   .body-home-ligth img{
     margin: 4px;
     width: 80%;
-    height: 220px;
+    height: 200px;
     margin-top: 140px;
     border: none;
     border-radius: 2%;
@@ -487,7 +488,7 @@ hr {
   .body-home-dark img{
     margin: 4px;
     width: 80%;
-    height: 220px;
+    height: 200px;
     margin-top: 140px;
     border: none;
     border-radius: 2%;
