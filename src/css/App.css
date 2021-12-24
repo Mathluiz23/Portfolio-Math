@@ -415,10 +415,10 @@ hr {
 
 @media screen and
 (min-width: 200px) and
-(max-width: 640px) {
+(max-width: 780px) {
 
   .quem-sou-dark {
-    width: 180px;
+    width: 60%;
     height: 350px;
     margin-top: 110px;
    }
@@ -442,7 +442,7 @@ hr {
    }
 
    .quem-sou-ligth{
-    width: 180px;
+    width: 60%;
     height: 350px;
     margin-top: 110px;
    }
@@ -470,10 +470,10 @@ hr {
   }
   
   .body-home-ligth img{
-    margin: 10px;
-    width: 85%;
+    margin: 4px;
+    width: 80%;
     height: 220px;
-    margin-top: 170px;
+    margin-top: 140px;
     border: none;
     border-radius: 2%;
     box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
@@ -485,10 +485,10 @@ hr {
   }
   
   .body-home-dark img{
-    margin: 10px;
-    width: 85%;
+    margin: 4px;
+    width: 80%;
     height: 220px;
-    margin-top: 170px;
+    margin-top: 140px;
     border: none;
     border-radius: 2%;
     box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
