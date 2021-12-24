@@ -418,7 +418,8 @@ hr {
 (max-width: 780px) {
 
   .quem-sou-dark {
-    width: 80%;
+    display: flex;
+    width: 100%;
     height: 220px;
     margin-top: 110px;
     /* border: solid yellow; */
@@ -443,8 +444,9 @@ hr {
    }
 
    .quem-sou-ligth{
-    width: 80%;
-    height: 350px;
+    display: flex;
+    width: 100%;
+    height: 220px;
     margin-top: 110px;
    }
   
