@@ -6,6 +6,7 @@ import { VscTools } from "react-icons/vsc";
 import Footer from '../components/Footer';
 import PortfolioContext from '../context/PortfolioContext';
 import '../css/App.css';
+import Contact from '../components/Contact';
 
 export default function Home() {
   const { themePortfolio } = useContext(PortfolioContext);
@@ -15,7 +16,7 @@ export default function Home() {
           <Header />
           <div className={ themePortfolio ? "body-home-ligth" : "body-home-dark"}>
             <div className={ themePortfolio ? "quem-sou-ligth" : "quem-sou-dark"}>
-              <h1>Quem sou ?!</h1>
+              <h1>Who I am ?!</h1>
               <p>Olá , me chamo Matheus Luiz da Silva, tenho 26 anos e sou de São Leopoldo RS.Estudande de Desenvolvimento Web Full-Stack.
                 <br/>Sou um profissional em transição de carreira, cada dia mais dedicado, apaixonado, motivado com a área de tecnologia e desenvolvimento, buscando contribuir positivamente na vida das pessoas.
               </p>
@@ -35,6 +36,7 @@ export default function Home() {
            <hr/>
            <br/>
            <br/>
+           <Contact/>
            <br/>
           <Footer/>
         </body>

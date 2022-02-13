@@ -90,7 +90,8 @@ hr {
  }
 
  .quem-sou-dark h1{
-  font-size:5vh;
+  font-size:6vh;
+  transform-style: flat;
   display: flex;
   flex-direction: column;
   text-align: center;
