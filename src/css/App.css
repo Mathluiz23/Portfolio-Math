@@ -420,14 +420,15 @@ hr {
 
   .quem-sou-dark {
     display: flex;
-    width: 100%;
-    height: 220px;
+    width: 80%;
+    height: 280px;
     margin-top: 110px;
     overflow:auto;
+    /* border: solid yellow; */
    }
 
    .quem-sou-dark h1{
-    font-size:20px;
+    font-size:3.5vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -439,21 +440,22 @@ hr {
   }
   
    .quem-sou-dark p{
-    font-size: 11px;
+    font-size: 2vh;
     margin: 25px 0px;
     color: white;
    }
 
    .quem-sou-ligth{
     display: flex;
-    width: 100%;
-    height: 220px;
+    width: 80%;
+    height: 280px;
     margin-top: 110px;
     overflow:auto;
+    /* border: solid yellow; */
    }
   
   .quem-sou-ligth h1{
-    font-size:20px;
+    font-size:3.5vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -465,7 +467,7 @@ hr {
   }
   
   .quem-sou-ligth p{
-    font-size: 11px;
+    font-size: 2vh;
     margin: 25px 0px;
   }
 
@@ -475,10 +477,10 @@ hr {
   }
   
   .body-home-ligth img{
-    margin: 4px;
-    width: 80%;
-    height: 200px;
-    margin-top: 140px;
+    /* margin: 4px; */
+    width: 95%;
+    height: 240px;
+    margin-top: 150px;
     border: none;
     border-radius: 2%;
     box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
@@ -490,10 +492,10 @@ hr {
   }
   
   .body-home-dark img{
-    margin: 4px;
-    width: 80%;
-    height: 200px;
-    margin-top: 140px;
+    /* margin: 4px; */
+    width: 95%;
+    height: 240px;
+    margin-top: 150px;
     border: none;
     border-radius: 2%;
     box-shadow: 4px -0.5px 10px rgb(113, 198, 255);

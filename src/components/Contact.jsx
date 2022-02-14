@@ -26,7 +26,7 @@ export default function Contact() {
 
               <div className="contact">
                 <a href="a" target="blank"><HiOutlineMail size={40}/></a>
-                <h3>matheus_luizs@hotmail.com</h3>
+                <h3>mathluiz23@gmail.com</h3>
               </div>
             </div>
             <div className={ themePortfolio ? "contact-local-ligth" : "contact-local-dark"}>

@@ -151,7 +151,7 @@ a:hover {
 /* Responsividade */
 @media screen and
 (min-width: 200px) and
-(max-width: 680px) {
+(max-width: 780px) {
 
     .entre-em-contato-ligth {
         display: flex;
@@ -184,7 +184,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         color: rgb(0, 0, 0);
-        width: 100%;
+        width: 80%;
         margin: 20px;
         margin-top: 35px;
         /* border: solid gold; */
@@ -196,7 +196,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         color: rgb(0, 0, 0);
-        width: 100%;
+        width: 80%;
         margin: 20px;
         margin-top: 35px;
         /* border: solid gold; */
@@ -257,6 +257,7 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         /* border: red solid; */
+        margin-top: 40px;
         width: 75%;
         height: 200px;
         font-size: 2vh;
@@ -278,6 +279,7 @@ a:hover {
         /* border: red solid; */
         width: 75%;
         height: 200px;
+        margin-top: 40px;
         font-size: 2vh;
         color:rgb(255, 255, 255);
        
