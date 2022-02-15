@@ -29,41 +29,51 @@ hr {
 .body-home-ligth{
   display: flex;
   justify-content:space-evenly;
+  align-items: flex-start;
+  /* border: solid brown; */
 }
 
 .body-home-ligth img{
   width: 50vh;
   height: 55vh;
+  margin: 10px;
   margin-top: 150px;
   border: none;
   border-radius: 2%;
   box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
+  /* border: solid violet; */
 }
 
 .body-home-dark{
   display: flex;
   justify-content:space-evenly;
+  align-items: flex-start;
+  /* border: solid brown; */
 }
 
 .body-home-dark img{
   width: 50vh;
   height: 55vh;
+  margin: 10px;
   margin-top: 150px;
   border: none;
   border-radius: 2%;
   box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
+  /* border: solid violet; */
 }
 
 .quem-sou-ligth{
   flex-direction: column;
-  width: 740px;
+  width: 60%;
   height: max-content;
+  margin: 20px;
   margin-top: 150px;
   padding: 8px;
+  /* border: solid orange; */
  }
 
  .quem-sou-ligth h1{
-  font-size:6vh;
+  font-size:4.5vh;
    transform-style: flat;
   display: flex;
   flex-direction: column;
@@ -76,21 +86,21 @@ hr {
 }
 
  .quem-sou-ligth p{
-  font-size: 3.5vh;
+  font-size: 3vh;
   margin: 15px 0px;
  }
 
  .quem-sou-dark {
-  display: flex;
   flex-direction: column;
-  width: 740px;
+  width: 60%;
   height: max-content;
+  margin: 20px;
   margin-top: 150px;
   padding: 8px;
  }
 
  .quem-sou-dark h1{
-  font-size:6vh;
+  font-size:4.5vh;
   transform-style: flat;
   display: flex;
   flex-direction: column;
@@ -103,7 +113,7 @@ hr {
 }
 
  .quem-sou-dark p{
-  font-size: 3.5vh;
+  font-size: 3vh;
   margin: 15px 0px;
   color: white;
  }
@@ -154,6 +164,7 @@ hr {
   width: 100%;
   flex-direction: column;
   justify-content: space-evenly;
+  
 }
 
 .container-dark {
@@ -203,7 +214,7 @@ hr {
   height: 250px;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
-  /* border:solid green; */
+  border:solid green;
 }
 
 .card-text-dark{
@@ -281,9 +292,10 @@ hr {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: max-content;
   margin-bottom: 80px;
+  /* border: solid orange; */
 }
 
 .hardSkills-card-ligth h2{
@@ -297,14 +309,14 @@ hr {
   border: ridge rgb(212, 212, 212);
   border-radius: 20px;
   background-color: rgb(238, 238, 238);
-  width: 195px;
-  height: 195px;
+  width: 200px;
+  height: 200px;
 
 }
 .hardSkills-card-ligth a{
   display: flex;
   margin: auto;
-  margin-top: 18px;
+  margin-top: 20px;
   z-index: 1;
   width: 100px;
   height: 100px;
@@ -343,20 +355,21 @@ hr {
   border-radius: 20px;
   color: rgb(187, 187, 187);
   background-color: rgb(0, 0, 0);
-  width: 195px;
-  height: 195px;
-
+  width: 200px;
+  height: 200px;
 }
+
 .hardSkills-card-dark a{
   display: flex;
   margin: auto;
-  margin-top: 18px;
+  margin-top: 20px;
   /* padding: 12px; */
   z-index: 1;
   width: 100px;
   height: 100px;
   color: rgb(45, 171, 255);
   /* border: solid orange; */
+
 }
 
 .hardSkills-card-dark:hover {
@@ -382,7 +395,9 @@ hr {
   justify-content: center;
   color: black;
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: 40px;
+  /* border: solid red; */
+  font-size: 2vh;
 }
 
 .hardskills-ligth a{
@@ -396,7 +411,8 @@ hr {
   justify-content: center;
   color: rgb(187, 187, 187);
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: 40px;
+  font-size: 2vh;
 }
 
 .hardskills-dark a{
@@ -404,6 +420,22 @@ hr {
   margin-left: 10px;
   color: rgb(223, 223, 223);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -418,17 +450,38 @@ hr {
 (min-width: 200px) and
 (max-width: 780px) {
 
+
+.body-home-ligth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  /* border: solid brown; */
+}
+
+.body-home-dark{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  /* border: solid brown; */
+}
+
   .quem-sou-dark {
     display: flex;
-    width: 80%;
-    height: 280px;
+    margin: auto;
+    width: 85%;
+    min-width: 150px;
+    height: max-content;
     margin-top: 110px;
     overflow:auto;
     /* border: solid yellow; */
    }
 
    .quem-sou-dark h1{
-    font-size:3.5vh;
+    font-size: 5vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -440,22 +493,24 @@ hr {
   }
   
    .quem-sou-dark p{
-    font-size: 2vh;
+    font-size: 2.8vh;
     margin: 25px 0px;
     color: white;
    }
 
    .quem-sou-ligth{
     display: flex;
-    width: 80%;
-    height: 280px;
+    margin: auto;
+    width: 85%;
+    min-width: 150px;
+    height: max-content;
     margin-top: 110px;
     overflow:auto;
     /* border: solid yellow; */
    }
   
   .quem-sou-ligth h1{
-    font-size:3.5vh;
+    font-size: 5vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -467,35 +522,28 @@ hr {
   }
   
   .quem-sou-ligth p{
-    font-size: 2vh;
+    font-size: 2.8vh;
     margin: 25px 0px;
-  }
-
-  .body-home-ligth{
-    display: flex;
-    justify-content:space-evenly;
   }
   
   .body-home-ligth img{
-    /* margin: 4px; */
-    width: 95%;
-    height: 240px;
-    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
     border: none;
     border-radius: 2%;
     box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
   }
   
-  .body-home-dark{
-    display: flex;
-    justify-content:space-evenly;
-  }
   
-  .body-home-dark img{
-    /* margin: 4px; */
-    width: 95%;
-    height: 240px;
-    margin-top: 150px;
+  .body-home-dark img {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
     border: none;
     border-radius: 2%;
     box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
@@ -511,10 +559,11 @@ hr {
     border: ridge rgb(212, 212, 212);
     border-radius: 20px;
     background-color: rgb(238, 238, 238);
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   
   }
+
   .hardSkills-card-ligth a{
     display: flex;
     margin: auto;
@@ -537,8 +586,8 @@ hr {
     border-radius: 20px;
     color: rgb(187, 187, 187);
     background-color: rgb(0, 0, 0);
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   }
 
   .hardSkills-card-dark a{
@@ -559,15 +608,15 @@ hr {
     color: black;
     margin-left: 20px;
     margin-top: -20px;
-    font-size: 13px;
+    font-size: 2.0vh;
+    /* border: solid yellow; */
   }
   
   .hardskills-ligth a{
     display: flex;
     margin-left: 10px;
-    margin-top: -5px;
     color: rgb(133, 202, 248);
-    width: 30px;
+    width: 35px;
   }
   
   .hardskills-dark {
@@ -576,14 +625,13 @@ hr {
     color: rgb(187, 187, 187);
     margin-left: 20px;
     margin-top: -20px;
-    font-size: 13px;
+    font-size: 2.0vh;
   }
   
   .hardskills-dark a{
     display: flex;
     margin-left: 10px;
-    margin-top: -5px;
-    width: 30px;
+    width: 35px;
     color: rgb(223, 223, 223);
   }
 
@@ -597,6 +645,7 @@ hr {
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
+  border: solid green;
 }
 
 .card {

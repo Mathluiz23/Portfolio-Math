@@ -4,7 +4,8 @@
     align-items: center;
     margin: 20px;
     margin-top: -10px;
-    width: 500px;
+    width: 90%;
+    font-size: 2vh;
     /* border: solid green; */
 }
 
@@ -14,13 +15,16 @@
     align-items: center;
     margin: 20px;
     margin-top: -10px;
-    width: 500px;
-    color: honeydew;
+    width: 90%;
+    /* border: solid green; */
+    font-size: 2vh;
+    color: rgb(187, 187, 187);
 }
 
 .title-contato {
     color: rgb(45, 171, 255);
-    font-size: 50px;
+    margin-left: 10px;
+    font-size: 60px;
 }
 
 
@@ -28,10 +32,12 @@
     display: flex;
     flex-direction: row;
     color: rgb(0, 0, 0);
-    width: 100%;
-    height: 300px;
-    margin-top: 50px;
+    margin:auto;
+    width: 80%;
+    height: max-content;
+    margin-top: 80px;
     /* border: solid gold; */
+    font-size: 1.8vh;
     
 }
 
@@ -40,9 +46,11 @@
     display: flex;
     flex-direction: row;
     color: rgb(0, 0, 0);
-    width: 100%;
-    height: 300px;
-    margin-top: 50px;
+    margin:auto;
+    width: 80%;
+    height: max-content;
+    margin-top: 80px;
+    font-size: 1.8vh;
     /* margin-top: 70px; */
     /* border: solid gold; */
 }
@@ -52,15 +60,16 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     height: 300px;
     /* border: solid green; */
+    margin: 10px;
 }
   
 .social-contact-ligth a{
     text-decoration: none;
     color: inherit;
-    padding: 25px;
+    padding: 50px;
     color:rgb(45, 171, 255);
 }
   
@@ -84,15 +93,17 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     height: 300px;
+    /* border: solid green; */
     color:rgb(255, 255, 255);
+    margin: 10px;
 }
   
 .social-contact-dark a{
     text-decoration: none;
     color: rgb(45, 171, 255);
-    padding: 25px;
+    padding: 50px;
 }
 
 .social-contact-dark a:hover {
@@ -104,10 +115,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: red solid; */
-    /* margin-top: -20px; */
-    width: 40%;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
     height: 300px;
+    /* border: solid rebeccapurple; */
 
 }
 
@@ -115,7 +127,7 @@ a:hover {
     margin-top: 10px;
     text-decoration: none;
     color: inherit;
-    padding: 25px;
+    padding: 40px;
     color:rgb(45, 171, 255);
 }
 
@@ -123,10 +135,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: red solid; */
-    /* margin-top: -20px; */
-    width: 40%;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
     height: 300px;
+    /* border: solid rebeccapurple; */
     color:rgb(255, 255, 255);
 
 }
@@ -135,7 +148,7 @@ a:hover {
     margin-top: 10px;
     text-decoration: none;
     color: rgb(45, 171, 255);
-    padding: 25px;
+    padding: 40px;
 }
 
 .contact-local-dark a:hover {
@@ -155,24 +168,25 @@ a:hover {
 
     .entre-em-contato-ligth {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        margin: 5px;
-        margin-top: -10px;
-        width: 250px;
+        margin: auto;
+        margin-top: -30px;
+        width: 80%;
         /* border: solid rgb(128, 23, 0); */
-        font-size: 2.2vh;
+        font-size: 2.5vh;
     }
     
     .entre-em-contato-dark {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        margin: 5px;
-        margin-top: -10px;
-        width: 250px;
+        margin: auto;
+        margin-top: -30px;
+        width: 80%;
         /* border: solid rgb(128, 23, 0); */
-        font-size: 2.2vh;
+        font-size: 2.5vh;
+        color: rgb(187, 187, 187);
     }
     
     .title-contato {
@@ -182,11 +196,14 @@ a:hover {
     
     .contato-ligth {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         color: rgb(0, 0, 0);
         width: 80%;
-        margin: 20px;
-        margin-top: 35px;
+        height: max-content;
+        margin: auto;
+        margin-top: 50px;
         /* border: solid gold; */
         
     }
@@ -194,20 +211,25 @@ a:hover {
     .contato-dark {
         color: white;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         color: rgb(0, 0, 0);
         width: 80%;
-        margin: 20px;
-        margin-top: 35px;
+        height: max-content;
+        margin: auto;
+        margin-top: 50px;
         /* border: solid gold; */
     }
     
     .social-contact-ligth {
         display: flex;
         flex-direction: column;
-        width: 60%;
+        align-items: center;
+        width: 100%;
         height: 150px;
-        font-size: 1.8vh;
+        font-size: 2vh;
+        /* border: solid greenyellow; */
     }
       
     .social-contact-ligth a{
@@ -235,16 +257,18 @@ a:hover {
     .social-contact-dark {
         display: flex;
         flex-direction: column;
-        width: 60%;
+        align-items: center;
+        width: 100%;
         height: 150px;
-        font-size: 1.8vh;
+        font-size: 2vh;
         color:rgb(255, 255, 255);
+        /* border: solid greenyellow; */
     }
       
     .social-contact-dark a{
         text-decoration: none;
         color: rgb(45, 171, 255);
-        padding: 5px;
+        padding: 8px;
     }
     
     .social-contact-dark a:hover {
@@ -256,11 +280,13 @@ a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         /* border: red solid; */
-        margin-top: 40px;
-        width: 75%;
+        width: 100%;
         height: 200px;
+        margin-top: 40px;
         font-size: 2vh;
+        /* padding: 8px; */
     
     }
     
@@ -276,11 +302,13 @@ a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         /* border: red solid; */
-        width: 75%;
+        width: 100%;
         height: 200px;
         margin-top: 40px;
         font-size: 2vh;
+        /* padding: 8px; */
         color:rgb(255, 255, 255);
        
     
