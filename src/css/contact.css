@@ -33,11 +33,11 @@
     flex-direction: row;
     color: rgb(0, 0, 0);
     margin:auto;
-    width: 80%;
+    width: 100%;
     height: max-content;
     margin-top: 80px;
     /* border: solid gold; */
-    font-size: 1.8vh;
+    font-size: 20px;
     
 }
 
@@ -47,10 +47,10 @@
     flex-direction: row;
     color: rgb(0, 0, 0);
     margin:auto;
-    width: 80%;
+    width: 100%;
     height: max-content;
     margin-top: 80px;
-    font-size: 1.8vh;
+    font-size: 20px;
     /* margin-top: 70px; */
     /* border: solid gold; */
 }
@@ -69,7 +69,7 @@
 .social-contact-ligth a{
     text-decoration: none;
     color: inherit;
-    padding: 50px;
+    padding: 30px;
     color:rgb(45, 171, 255);
 }
   
@@ -96,14 +96,14 @@ a:hover {
     width: 50%;
     height: 300px;
     /* border: solid green; */
-    color:rgb(255, 255, 255);
+    color: rgb(187, 187, 187);
     margin: 10px;
 }
   
 .social-contact-dark a{
     text-decoration: none;
     color: rgb(45, 171, 255);
-    padding: 50px;
+    padding: 30px;
 }
 
 .social-contact-dark a:hover {
@@ -140,7 +140,7 @@ a:hover {
     width: 50%;
     height: 300px;
     /* border: solid rebeccapurple; */
-    color:rgb(255, 255, 255);
+    color: rgb(187, 187, 187);
 
 }
 
@@ -209,7 +209,7 @@ a:hover {
     }
     
     .contato-dark {
-        color: white;
+        color: rgb(187, 187, 187);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -227,15 +227,15 @@ a:hover {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 150px;
-        font-size: 2vh;
+        height: 200px;
+        font-size: 15px;
         /* border: solid greenyellow; */
     }
       
     .social-contact-ligth a{
         text-decoration: none;
         color: inherit;
-        padding: 5px;
+        padding: 10px;
         color:rgb(45, 171, 255);
     }
       
@@ -259,16 +259,15 @@ a:hover {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 150px;
-        font-size: 2vh;
-        color:rgb(255, 255, 255);
-        /* border: solid greenyellow; */
+        height: 200px;
+        font-size: 15px;
+        color: rgb(187, 187, 187);
     }
       
     .social-contact-dark a{
         text-decoration: none;
         color: rgb(45, 171, 255);
-        padding: 8px;
+        padding: 10px;
     }
     
     .social-contact-dark a:hover {
@@ -283,9 +282,9 @@ a:hover {
         align-items: center;
         /* border: red solid; */
         width: 100%;
-        height: 200px;
-        margin-top: 40px;
-        font-size: 2vh;
+        height: 280px;
+        /* margin-top: 40px; */
+        font-size: 15px;
         /* padding: 8px; */
     
     }
@@ -293,7 +292,7 @@ a:hover {
     .contact-local-ligth a{
         text-decoration: none;
         color: inherit;
-        padding: 5px;
+        padding: 15px;
         margin-top: 10px;
         color:rgb(45, 171, 255);
     }
@@ -305,20 +304,21 @@ a:hover {
         align-items: center;
         /* border: red solid; */
         width: 100%;
-        height: 200px;
-        margin-top: 40px;
-        font-size: 2vh;
+        height: 280px;
+        /* margin-top: 40px; */
+        font-size: 15px;
         /* padding: 8px; */
-        color:rgb(255, 255, 255);
-       
+        color: rgb(187, 187, 187);
     
     }
     
     .contact-local-dark a{
         text-decoration: none;
-        color: rgb(45, 171, 255);
-        padding: 5px;
+        color: inherit;
+        padding: 15px;
         margin-top: 10px;
+        color: rgb(45, 171, 255);
+        
     }
     
     .contact-local-dark a:hover {
