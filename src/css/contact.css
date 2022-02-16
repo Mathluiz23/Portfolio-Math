@@ -5,7 +5,7 @@
     margin: 20px;
     margin-top: -10px;
     width: 90%;
-    font-size: 15px;
+    font-size: 20px;
     /* border: solid green; */
 }
 
@@ -17,7 +17,7 @@
     margin-top: -10px;
     width: 90%;
     /* border: solid green; */
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 
@@ -31,14 +31,15 @@
 .contato-ligth {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     color: rgb(0, 0, 0);
     margin:auto;
-    width: 80%;
-    height: max-content;
-    margin-top: 80px;
-    /* border: solid gold; */
-    font-size: 14px;
+    width: 50%;
+    height: 400px;
+    font-size: 20px;
     padding: 20px;
+    align-items: center;
+    /* border: solid gold; */
     
 }
 
@@ -46,15 +47,14 @@
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     color: rgb(0, 0, 0);
     margin:auto;
-    width: 80%;
-    height: max-content;
-    margin-top: 80px;
-    /* border: solid gold; */
-    font-size: 14px;
+    width: 50%;
+    height: 400px;
+    font-size: 20px;
     padding: 20px;
-    /* margin-top: 70px; */
+    align-items: center;
     /* border: solid gold; */
 }
 
@@ -99,8 +99,8 @@ a:hover {
     width: 50%;
     height: 300px;
     /* border: solid green; */
-    color: rgb(187, 187, 187);
     margin: 10px;
+    color: rgb(187, 187, 187);
 }
   
 .social-contact-dark a{
@@ -118,10 +118,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 10px;
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    height: 400px;
+    /* border: solid rgb(51, 153, 117); */
     /* border: solid rebeccapurple; */
 
 }
@@ -138,11 +139,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 10px;
-    width: 50%;
-    height: 300px;
-    /* border: solid rebeccapurple; */
+    width: 100%;
+    height: 400px;
+    /* border: solid rgb(51, 153, 117); */
     color: rgb(187, 187, 187);
 
 }
@@ -164,17 +165,51 @@ a:hover {
     transform: translate3d(0px, -5px, 0px);
 }
 
+.contato-local {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: solid red; */
+    width: 95%;
+}
+
+.local-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    /* border: solid royalblue; */
+}
+
 /* Responsividade */
 @media screen and
 (min-width: 200px) and
 (max-width: 780px) {
+
+
+    .contato-local {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        /* border: solid red; */
+        width: 80%;
+    }
+    
+    .local-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* border: solid royalblue; */
+    }
 
     .entre-em-contato-ligth {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
-        margin-top: -30px;
+        margin-top: -40px;
         width: 80%;
         /* border: solid rgb(128, 23, 0); */
         font-size: 13px;
@@ -185,7 +220,7 @@ a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
-        margin-top: -30px;
+        margin-top: -40px;
         width: 80%;
         /* border: solid rgb(128, 23, 0); */
         font-size: 13px;
@@ -200,13 +235,13 @@ a:hover {
     .contato-ligth {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         color: rgb(0, 0, 0);
-        width: 50%;
+        width: 80%;
         height: max-content;
         margin: auto;
-        margin-top: 50px;
+        /* margin-top: 20px; */
         /* border: solid gold; */
         
     }
@@ -214,13 +249,13 @@ a:hover {
     .contato-dark {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         color: rgb(0, 0, 0);
-        width: 50%;
+        width: 80%;
         height: max-content;
         margin: auto;
-        margin-top: 50px;
+        /* margin-top: 20px; */
         /* border: solid gold; */
     }
     
@@ -232,7 +267,8 @@ a:hover {
         width: 80%;
         height: 200px;
         font-size: 12px;
-        /* margin-left: 10px; */
+        margin-left: -20px;
+        /* margin-left: 0px; */
         /* border: solid greenyellow; */
     }
       
@@ -240,7 +276,7 @@ a:hover {
         text-decoration: none;
         align-items: center;
         color: inherit;
-        padding: 20px;
+        padding: 10px;
         color:rgb(45, 171, 255);
         /* border: solid red; */
     }
@@ -268,7 +304,8 @@ a:hover {
         width: 80%;
         height: 200px;
         font-size: 12px;
-        /* margin-left: 10px; */
+        margin-left: -20px;
+        /* margin-left: 0px; */
         /* border: solid greenyellow; */
         color: rgb(187, 187, 187);
     }
@@ -277,7 +314,7 @@ a:hover {
         text-decoration: none;
         align-items: center;
         color: inherit;
-        padding: 20px;
+        padding: 10px;
         color:rgb(45, 171, 255);
         /* border: solid red; */
     }
@@ -290,11 +327,13 @@ a:hover {
     .contact-local-ligth {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items:center;
+        /* justify-content: center; */
+        align-items:flex-start;
         width: 80%;
         height: max-content;
         font-size: 12px;
+        /* border: solid red; */
+        margin-left: -20px;
         /* border: solid red; */
     
     }
@@ -302,7 +341,7 @@ a:hover {
     .contact-local-ligth a{
         text-decoration: none;
         color: inherit;
-        padding: 15px;
+        padding: 10px;
         margin-top: 10px;
         color:rgb(45, 171, 255);
     }
@@ -310,12 +349,13 @@ a:hover {
     .contact-local-dark {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items:center;
+        /* justify-content: center; */
+        align-items:flex-start;
         width: 80%;
         height: max-content;
         font-size: 12px;
         /* border: solid red; */
+        margin-left: -20px;
         color: rgb(187, 187, 187);
     
     }
@@ -323,7 +363,7 @@ a:hover {
     .contact-local-dark a{
         text-decoration: none;
         color: inherit;
-        padding: 15px;
+        padding: 10px;
         margin-top: 10px;
         color: rgb(45, 171, 255);
         

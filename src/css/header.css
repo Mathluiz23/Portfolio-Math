@@ -62,6 +62,14 @@
     background-color: rgb(255, 255, 255);
 }
 
+.button-select-dark button{
+    
+}
+
+.button-select-ligth button{
+  width: 50px;
+  height: 50px;
+}
 
 
 
@@ -202,18 +210,18 @@
 
     .header-ligth p{
       font-size: 55px;
-      margin: -7px -2px;
+      margin: -15px -8px;
       color: rgb(45, 171, 255);
     }
       
     .header-dark p{
       font-size: 55px;
-      margin: -7px -2px;
+      margin: -15px -8px;
       color: rgb(45, 171, 255);
     }
     
     .header-container-ligth h1 {
-      font-size: 32px;
+      font-size: 25px;
       text-transform: uppercase;
       letter-spacing: 4px;
       margin: 18px 8px;
@@ -221,7 +229,7 @@
     }
       
     .header-container-dark h1 {
-      font-size: 32px;
+      font-size: 25px;
       text-transform: uppercase;
       letter-spacing: 4px;
       margin: 18px 8px;
@@ -259,4 +267,36 @@
         border-radius: 10px;
         transition: 0.8s ease-in-out;
     }
+
+
+.checkbox .trace-ligth:nth-child(1) {
+    top: 14px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-ligth:nth-child(2) {
+    top: 28px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-ligth:nth-child(3) {
+    top: 42px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-dark:nth-child(1) {
+    top: 14px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-dark:nth-child(2) {
+    top: 28px;
+    transform: rotate(0);
+}
+  
+.checkbox .trace-dark:nth-child(3) {
+    top: 42px;
+    transform: rotate(0);
+}
+
 }
