@@ -214,7 +214,7 @@ hr {
   height: 250px;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
-  border:solid green;
+  /* border:solid green; */
 }
 
 .card-text-dark{
@@ -397,7 +397,7 @@ hr {
   margin-left: 20px;
   margin-top: 40px;
   /* border: solid red; */
-  font-size: 2vh;
+  font-size: 20px;
 }
 
 .hardskills-ligth a{
@@ -409,10 +409,10 @@ hr {
 .hardskills-dark {
   display: flex;
   justify-content: center;
-  color: rgb(187, 187, 187);
   margin-left: 20px;
   margin-top: 40px;
-  font-size: 2vh;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
 }
 
 .hardskills-dark a{

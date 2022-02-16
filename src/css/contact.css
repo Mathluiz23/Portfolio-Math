@@ -18,7 +18,7 @@
     width: 90%;
     /* border: solid green; */
     font-size: 2vh;
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
 }
 
 .title-contato {
@@ -33,11 +33,12 @@
     flex-direction: row;
     color: rgb(0, 0, 0);
     margin:auto;
-    width: 100%;
+    width: 80%;
     height: max-content;
     margin-top: 80px;
     /* border: solid gold; */
     font-size: 20px;
+    padding: 20px;
     
 }
 
@@ -47,10 +48,12 @@
     flex-direction: row;
     color: rgb(0, 0, 0);
     margin:auto;
-    width: 100%;
+    width: 80%;
     height: max-content;
     margin-top: 80px;
+    /* border: solid gold; */
     font-size: 20px;
+    padding: 20px;
     /* margin-top: 70px; */
     /* border: solid gold; */
 }
@@ -58,7 +61,7 @@
 .social-contact-ligth {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     width: 50%;
     height: 300px;
@@ -69,7 +72,7 @@
 .social-contact-ligth a{
     text-decoration: none;
     color: inherit;
-    padding: 30px;
+    padding: 25px;
     color:rgb(45, 171, 255);
 }
   
@@ -91,7 +94,7 @@ a:hover {
 .social-contact-dark {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     width: 50%;
     height: 300px;
@@ -103,7 +106,7 @@ a:hover {
 .social-contact-dark a{
     text-decoration: none;
     color: rgb(45, 171, 255);
-    padding: 30px;
+    padding: 25px;
 }
 
 .social-contact-dark a:hover {
@@ -174,7 +177,7 @@ a:hover {
         margin-top: -30px;
         width: 80%;
         /* border: solid rgb(128, 23, 0); */
-        font-size: 2.5vh;
+        font-size: 15px;
     }
     
     .entre-em-contato-dark {
@@ -185,8 +188,8 @@ a:hover {
         margin-top: -30px;
         width: 80%;
         /* border: solid rgb(128, 23, 0); */
-        font-size: 2.5vh;
-        color: rgb(187, 187, 187);
+        font-size: 15px;
+        color: rgb(255, 255, 255);
     }
     
     .title-contato {
