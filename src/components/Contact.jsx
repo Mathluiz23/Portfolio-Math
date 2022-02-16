@@ -32,7 +32,7 @@ export default function Contact() {
             <div className={ themePortfolio ? "contact-local-ligth" : "contact-local-dark"}>
               <div className="contact">
                 <a href="a" target="blank"><FaMapMarkerAlt size={40}/></a>
-                <h3>Waterford - IE</h3>
+                <h3>São Leopoldo - RS</h3>
               </div>
 
               <div className="contact">
