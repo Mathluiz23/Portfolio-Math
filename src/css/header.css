@@ -47,7 +47,7 @@ body, html{
     text-transform: uppercase;
     letter-spacing: 4px;
     /* margin: 8px 8px; */
-    margin-left: 50px;
+    margin-left: 30px;
 }
   
 .header-container-dark h1 {
@@ -55,7 +55,7 @@ body, html{
     text-transform: uppercase;
     letter-spacing: 4px;
     /* margin: 8px 8px; */
-    margin-left: 50px;
+    margin-left: 30px;
     color:white;
 }
 
@@ -242,7 +242,7 @@ body, html{
       color:white;
     }
     
-    .button-select-dark{
+    .button-select-dark {
       margin-left: 20px;
       margin-top: 24px;
       border-style: none;
