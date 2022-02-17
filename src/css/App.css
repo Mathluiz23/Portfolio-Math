@@ -224,17 +224,18 @@ hr {
 .card-text-ligth{
   display: flex;
   align-items: center;
-  width: 75%;
+  width: 60%;
   height: 250px;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
+  margin: 40px;
   /* border:solid green; */
 }
 
 .card-text-dark{
   display: flex;
   align-items: center;
-  width: 75%;
+  width: 60%;
   height: 250px;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
