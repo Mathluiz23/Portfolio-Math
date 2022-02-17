@@ -104,9 +104,9 @@ a:hover {
     flex-direction: column;
     margin-top: 20px;
     margin-left:20px;
-    width: 120px;
+    width: 180px;
     height: 120px;
-    font-size: 14px;
+    font-size: 11px;
     
   }
   
@@ -127,10 +127,11 @@ a:hover {
     flex-direction: column;
     margin-top: 20px;
     margin-left:20px;
-    width: 120px;
+    width: 180px;
     height: 120px;
-    font-size: 14px;
+    font-size: 11px;
     color: rgb(187, 187, 187);
+    /* border: solid indianred; */
   }
   
   

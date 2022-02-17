@@ -194,7 +194,7 @@ hr {
   margin-top: 100px;
   justify-content: space-between;
   width: 90%;
-  height: max-content;
+  height: 350px;
   /* background-color: white; */
   /* border: solid aqua; */
   /* border:solid yellow; */
@@ -205,7 +205,7 @@ hr {
   height: 300px;
   border-radius: 50%;
   border:solid rgb(45, 171, 255);
-  /* margin-top: -20px; */
+  margin: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,7 +229,9 @@ hr {
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
   margin: 40px;
-  /* border:solid green; */
+  /* border:solid rgb(238, 238, 238); */
+  /* border-radius: 10px; */
+  /* background-color: rgb(240, 240, 240); */
 }
 
 .card-text-dark{
@@ -239,6 +241,7 @@ hr {
   height: 250px;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
+  margin: 40px;
   /* border:solid green; */
 }
 
@@ -697,16 +700,19 @@ hr {
 .card-container {
   display: flex;
   align-items: center;
-  /* margin-top: 100px; */
-  justify-content: space-evenly;
-  width: 100%;
-  height: 100%;
+  margin-top: 70px;
+  /* justify-content: space-evenly; */
+  width: 95%;
+  height: 95%;
   /* border: solid green; */
 }
 
 .card {
+  margin-left: 15px;
   width: 150px;
+  min-width: 150px;
   height: 150px;
+  min-height: 150px;
   border-radius: 100%;
   border:solid rgb(45, 171, 255);
   display: flex;
@@ -726,23 +732,29 @@ hr {
 .card-text-ligth{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  width: 50%;
-  height: 200px;
+  margin: 5px;
+  width: 60%;
+  height: 220px;
   letter-spacing: 1px;
-  color: rgb(109, 109, 109);
+  /* overflow: auto; */
+  color: rgb(0, 0, 0);
   font-size: 12px;
+  /* border: solid red; */
 }
 
 .card-text-dark{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  width: 50%;
-  height: 200px;
+  margin: 5px;
+  width: 60%;
+  height: 220px;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
+  /* overflow: auto; */
+  color: rgb(0, 0, 0);
   font-size: 12px;
+  /* border: solid red; */
+  color: rgb(109, 109, 109);
+  /* border: solid red; */
 }
 
 .card-wrapper {
@@ -752,13 +764,15 @@ hr {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 180px;
-  /* border: solid red; */
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  /* border: solid rgb(255, 0, 204); */
 }
 
 .card-wrapper h2 {
   display: flex;
-  font-size: 15px;
+  font-size: 14px;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
