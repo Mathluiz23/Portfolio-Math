@@ -7,17 +7,22 @@
 }
 
  body, html{
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
 
 }
 
+
 .body-ligth {
   background: rgb(250, 250, 250);
+  width: 100%;
   height: 100%;
 }
 
 .body-dark {
   background-color: rgb(5,5,18);
+  width: 100%;
   height: 100%;
 }
 
@@ -28,33 +33,32 @@ hr {
 
 .body-home-ligth{
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-around;
   align-items: flex-start;
   /* border: solid brown; */
 }
 
 .body-home-ligth img{
-  width: 50vh;
-  height: 55vh;
-  margin: 10px;
+  width: 400px;
+  height: 480px;
+  /* margin: 10px; */
   margin-top: 150px;
   border: none;
   border-radius: 2%;
   box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
-  /* border: solid violet; */
 }
 
 .body-home-dark{
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-around;
   align-items: flex-start;
   /* border: solid brown; */
 }
 
 .body-home-dark img{
-  width: 50vh;
-  height: 55vh;
-  margin: 10px;
+  width: 400px;
+  height: 480px;
+  /* margin: 10px; */
   margin-top: 150px;
   border: none;
   border-radius: 2%;
@@ -68,7 +72,7 @@ hr {
   height: max-content;
   margin: 20px;
   margin-top: 150px;
-  padding: 8px;
+  /* padding: 8px; */
   /* border: solid orange; */
  }
 
@@ -97,7 +101,8 @@ hr {
   height: max-content;
   margin: 20px;
   margin-top: 150px;
-  padding: 8px;
+  /* padding: 8px; */
+  /* border: solid orange; */
  }
 
  .quem-sou-dark h1{
@@ -158,13 +163,16 @@ hr {
 }
 
 
+/* Página de Projetos */
+
 .container-ligth {
   display: flex;
-  background-color: white;
+  /* background-color: rgb(165, 11, 11); */
   height: 100%;
   width: 100%;
   flex-direction: column;
   justify-content: space-evenly;
+  /* border: solid aqua; */
   
 }
 
@@ -180,18 +188,20 @@ hr {
 .card-container {
   display: flex;
   align-items: center;
-  margin-top: 70px;
-  /* margin-top: 100px; */
-  justify-content: space-evenly;
-  width: 100%;
-  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 90%;
+  height: max-content;
+  /* background-color: white; */
+  /* border: solid aqua; */
   /* border:solid yellow; */
 }
 
 .card {
   width: 300px;
   height: 300px;
-  border-radius: 100%;
+  border-radius: 50%;
   border:solid rgb(45, 171, 255);
   /* margin-top: -20px; */
   display: flex;
@@ -205,13 +215,14 @@ hr {
   color: black;
   cursor: pointer;
   transition: 0.5s ease-in-out;
+  
   /* z-index: 0; */
 }
 
 .card-text-ligth{
   display: flex;
   align-items: center;
-  width: 700px;
+  width: 75%;
   height: 250px;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
@@ -221,10 +232,10 @@ hr {
 .card-text-dark{
   display: flex;
   align-items: center;
-  width: 700px;
+  width: 75%;
   height: 250px;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
+  color: rgb(109, 109, 109);
   /* border:solid green; */
 }
 
@@ -287,6 +298,15 @@ hr {
   font-size: 14px;
 }
 
+/* Página de Projetos */
+
+
+
+
+
+
+
+
 .hardSkills-container{
   display: flex;
   margin: auto;
@@ -305,7 +325,7 @@ hr {
 }
 
 .hardSkills-card-ligth {
-  margin: 18px;
+  margin: 20px;
   margin-top: 60px;
   border: ridge rgb(212, 212, 212);
   border-radius: 20px;
@@ -453,7 +473,7 @@ hr {
 
 
 @media screen and
-(min-width: 200px) and
+(min-width: 100px) and
 (max-width: 780px) {
 
 
@@ -662,6 +682,11 @@ hr {
   }
 
   
+
+
+
+
+
 
 /* Página de Projetos */
 

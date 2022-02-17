@@ -17,9 +17,8 @@ export default function Contact() {
           <h1 className="title-contato">!</h1>
         </div>
 
-        <div className="contato-local">
+        <div className="contact-me">
           <div className={ themePortfolio ? "contato-ligth" :"contato-dark"}>
-
             <div className={ themePortfolio ? "social-contact-ligth" : "social-contact-dark"}>
               <div className="contact">
                 <a href="https://web.whatsapp.com/send?phone=5551981386882" target="blank"><RiWhatsappFill size={40}/></a>
@@ -32,8 +31,6 @@ export default function Contact() {
               </div>
             </div>
             </div>
-       
-            <div className="local-contato">
               <div className={ themePortfolio ? "contact-local-ligth" : "contact-local-dark"}>
                 <div className="contact">
                   <a href="a" target="blank"><FaMapMarkerAlt size={40}/></a>
@@ -41,7 +38,7 @@ export default function Contact() {
                 </div>
 
                 <div className="contact">
-                  <a href="https://web.whatsapp.com/send?phone=5551981386882" target="blank"><BsFillTelephoneFill size={40}/></a>
+                  <a href="https://web.whatsapp.com/send?phone=5551981386882" target="blank"><BsFillTelephoneFill size={35}/></a>
                   <h3>(51)-98138-6882</h3>
                 </div>
 
@@ -50,7 +47,6 @@ export default function Contact() {
                   <h3>Telegram</h3>
                 </div>
               </div>
-            </div>
             </div>
         </>
     );
