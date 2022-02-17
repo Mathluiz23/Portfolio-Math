@@ -7,9 +7,9 @@ import PortfolioContext from '../context/PortfolioContext';
 export default function Header() {
   const { setThemePortfolio, themePortfolio} = useContext(PortfolioContext);
 
-  function handleButtonDark({ target }) {
+  function handleButtonDark(target) {
     setThemePortfolio(!themePortfolio);
-  }
+  };
 
   return (
     <header className={ themePortfolio ? "header-container-ligth" : "header-container-dark"}>

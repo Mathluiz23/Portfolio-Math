@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Header from '../components/Header';
 import FOTO2 from '../FOTO2.png';
 import CardsHardSkills from  '../components/CardsHardSkills';
@@ -9,7 +9,17 @@ import '../css/App.css';
 import Contact from '../components/Contact';
 
 export default function Home() {
-  const { themePortfolio } = useContext(PortfolioContext);
+  const { themePortfolio, setThemePortfolio } = useContext(PortfolioContext);
+
+  useEffect(()=>{
+    const themeActual = localStorage.getItem('theme');
+    if (themeActual) {
+      const theme = JSON.parse(themeActual);
+      setThemePortfolio(theme)
+    }
+  },[setThemePortfolio])
+
+
   console.log(themePortfolio);
     return (
         <body className={ themePortfolio ? "body-ligth" : "body-dark"}>
