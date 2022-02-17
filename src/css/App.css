@@ -72,7 +72,7 @@ hr {
   height: max-content;
   margin-top: 150px;
   /* padding: 8px; */
-  /* border: solid orange; */
+  border: solid orange;
  }
 
  .quem-sou-ligth h1{
@@ -89,7 +89,7 @@ hr {
 }
 
  .quem-sou-ligth p{
-  font-size: 35px;
+  font-size: 2.2em;
   margin: 15px 0px;
  }
 
