@@ -35,13 +35,16 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  margin: auto;
+  width: 95%;
+  height: 700px;
   border: solid brown;
 }
 
 .body-home-ligth img{
-  width: 400px;
-  height: 480px;
-  /* margin: 10px; */
+  width: 380px;
+  height: 450px;
+  margin: 20px;
   margin-top: 150px;
   border: none;
   border-radius: 2%;
@@ -90,7 +93,7 @@ hr {
 
  .quem-sou-ligth p{
   font-size: 2.2em;
-  margin: 15px 0px;
+  margin: 15px;
  }
 
  .quem-sou-dark {
