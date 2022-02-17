@@ -47,7 +47,7 @@ body, html{
     text-transform: uppercase;
     letter-spacing: 4px;
     /* margin: 8px 8px; */
-    /* margin-left:20px; */
+    margin-left: 50px;
 }
   
 .header-container-dark h1 {
@@ -55,7 +55,7 @@ body, html{
     text-transform: uppercase;
     letter-spacing: 4px;
     /* margin: 8px 8px; */
-    /* margin-left:20px; */
+    margin-left: 50px;
     color:white;
 }
 
@@ -85,7 +85,7 @@ body, html{
     width: 60px;
     position: fixed;
     top: 0;
-    right: 5px;
+    right: 20px;
     justify-content: center;
     cursor: pointer;
     z-index: 11;

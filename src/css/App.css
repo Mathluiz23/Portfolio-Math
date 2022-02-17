@@ -37,13 +37,13 @@ hr {
   align-items: flex-start;
   margin: auto;
   width: 95%;
-  height: 700px;
-  border: solid brown;
+  height: max-content;
+  /* border: solid brown; */
 }
 
 .body-home-ligth img{
-  width: 380px;
-  height: 450px;
+  width: 85%;
+  height: 100%;
   margin: 20px;
   margin-top: 150px;
   border: none;
@@ -55,30 +55,32 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  margin: auto;
+  width: 95%;
+  height: max-content;
   /* border: solid brown; */
 }
 
 .body-home-dark img{
-  width: 400px;
-  height: 480px;
-  /* margin: 10px; */
+  width: 85%;
+  height: 100%;
+  margin: 20px;
   margin-top: 150px;
   border: none;
   border-radius: 2%;
   box-shadow: 4px -0.5px 10px rgb(113, 198, 255);
-  /* border: solid violet; */
 }
 
-.quem-sou-ligth{
+.quem-sou-ligth {
   flex-direction: column;
   width: 60%;
   height: max-content;
   margin-top: 150px;
   /* padding: 8px; */
-  border: solid orange;
+  /* border: solid orange; */
  }
 
- .quem-sou-ligth h1{
+ .quem-sou-ligth h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -92,7 +94,7 @@ hr {
 }
 
  .quem-sou-ligth p{
-  font-size: 2.2rem;
+  font-size: 3.2vh;
   margin: 15px;
  }
 
@@ -100,7 +102,6 @@ hr {
   flex-direction: column;
   width: 60%;
   height: max-content;
-  margin: 20px;
   margin-top: 150px;
   /* padding: 8px; */
   /* border: solid orange; */
@@ -112,7 +113,7 @@ hr {
   text-align: center;
   color: rgb(45, 171, 255);
   /* border: solid red; */
-  font-size: 5vh;
+  font-size: 50px;
 }
 
 .quem-sou-dark h1:hover{
@@ -120,8 +121,8 @@ hr {
 }
 
  .quem-sou-dark p{
-  font-size: 3.5vh;
-  margin: 15px 0px;
+  font-size: 3.2vh;
+  margin: 15px;
   color: white;
  }
  
@@ -316,7 +317,7 @@ hr {
   text-align: center;
   width: 80%;
   height: max-content;
-  margin-bottom: 80px;
+  margin-bottom: 180px;
   /* border: solid orange; */
 }
 

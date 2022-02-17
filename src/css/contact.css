@@ -38,6 +38,14 @@
     font-size: 60px;
 }
 
+.contact-me {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    /* border: solid royalblue; */
+}
 
 .contato-ligth {
     display: flex;
@@ -47,7 +55,7 @@
     margin:auto;
     width: 50%;
     height: 400px;
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 20px;
     align-items: center;
     /* border: solid gold; */
@@ -63,7 +71,7 @@
     margin:auto;
     width: 50%;
     height: 400px;
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 20px;
     align-items: center;
     /* border: solid gold; */
@@ -72,18 +80,17 @@
 .social-contact-ligth {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     height: 300px;
     /* border: solid green; */
-    margin: 10px;
 }
   
 .social-contact-ligth a{
     text-decoration: none;
     color: inherit;
-    padding: 25px;
+    padding: 35px;
     color:rgb(45, 171, 255);
 }
   
@@ -105,19 +112,19 @@ a:hover {
 .social-contact-dark {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     height: 300px;
-    /* border: solid green; */
-    margin: 10px;
     color: rgb(187, 187, 187);
+    /* border: solid green; */
 }
   
 .social-contact-dark a{
     text-decoration: none;
+    color: inherit;
+    padding: 35px;
     color: rgb(45, 171, 255);
-    padding: 25px;
 }
 
 .social-contact-dark a:hover {
@@ -131,7 +138,7 @@ a:hover {
     justify-content: center;
     align-items: flex-start;
     margin: 10px;
-    width: 100%;
+    width: 30%;
     height: 400px;
     /* border: solid rgb(51, 153, 117); */
     /* border: solid rebeccapurple; */
@@ -152,10 +159,10 @@ a:hover {
     justify-content: center;
     align-items: flex-start;
     margin: 10px;
-    width: 100%;
+    width: 30%;
     height: 400px;
-    /* border: solid rgb(51, 153, 117); */
     color: rgb(187, 187, 187);
+    /* border: solid rgb(51, 153, 117); */
 
 }
 
@@ -176,13 +183,7 @@ a:hover {
     transform: translate3d(0px, -5px, 0px);
 }
 
-.contact-me {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    /* border: solid royalblue; */
-}
+
 
 /* Responsividade */
 @media screen and
@@ -261,6 +262,7 @@ a:hover {
         font-size: 12px;
         margin-left: -20px;
         /* margin-left: 0px; */
+        padding: 10px;
         /* border: solid greenyellow; */
     }
       
@@ -297,6 +299,7 @@ a:hover {
         height: 200px;
         font-size: 12px;
         margin-left: -20px;
+        padding: 10px;
         /* margin-left: 0px; */
         /* border: solid greenyellow; */
         color: rgb(187, 187, 187);
@@ -333,7 +336,7 @@ a:hover {
     .contact-local-ligth a{
         text-decoration: none;
         color: inherit;
-        padding: 10px;
+        padding: 20px;
         margin-top: 10px;
         color:rgb(45, 171, 255);
     }
@@ -356,7 +359,7 @@ a:hover {
     .contact-local-dark a{
         text-decoration: none;
         color: inherit;
-        padding: 10px;
+        padding: 20px;
         margin-top: 10px;
         color: rgb(45, 171, 255);
         
