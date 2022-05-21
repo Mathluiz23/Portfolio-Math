@@ -446,6 +446,20 @@ hr {
   color: rgb(223, 223, 223);
 }
 
+.curriculo {
+  display: flex;
+  /* border: solid red; */
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+}
+
+.curriculo h1 {
+  margin: 20px;
+  color: rgb(45, 171, 255);
+}
+
 /* RESPOSIVIDADE MOBILE */
 
 @media screen and
@@ -753,6 +767,21 @@ hr {
   opacity: 1;
   visibility: visible;
   font-size: 10px;
+}
+
+.curriculo {
+  display: flex;
+  /* border: solid red; */
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-size: 12px;
+  height: 400px;
+}
+
+.curriculo h1 {
+  margin: 20px;
+  color: rgb(45, 171, 255);
 }
 
 }
