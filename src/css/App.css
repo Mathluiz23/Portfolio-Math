@@ -448,7 +448,6 @@ hr {
 
 .curriculo {
   display: flex;
-  /* border: solid red; */
   justify-content: center;
   align-items: center;
   width: 80%;
