@@ -38,7 +38,7 @@ export default function Home() {
         <hr />
       <div className={themePortfolio ? "hardskills-ligth" : "hardskills-dark"}>
         <h1>Hard Skills</h1>
-          <a href="a"><VscTools size={50}/></a>
+          <a href="/"><VscTools size={50}/></a>
         </div>
         <CardsHardSkills />
           <hr/>

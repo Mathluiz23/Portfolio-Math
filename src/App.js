@@ -9,7 +9,8 @@ function App() {
     <div>
       <PortfolioProvider>
         <Routes>
-          <Route path="/projetos" element={ <Projetos /> } />
+          <Route path="/projects" element={ <Projetos /> } />
+          <Route path="/cv" element={ <Projetos /> } />
           <Route exatc path="/" element={< Home />} />
         </Routes>
       </PortfolioProvider>

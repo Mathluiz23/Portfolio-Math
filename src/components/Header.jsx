@@ -24,7 +24,7 @@ export default function Header() {
         >
           <GiBedLamp size={20} />
         </button>
-        
+
         <input type="checkbox" id="toggle"/>
           <label class="checkbox" for="toggle">
             <div class={themePortfolio ? "trace-ligth" : "trace-dark"}></div>
@@ -36,9 +36,9 @@ export default function Header() {
           <nav class="menu-items">
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/projetos">Projetos</a></li>
-              <li><a href="/curriculo">Currículo</a></li>
-              <li><a href="https://open.spotify.com/playlist/6zXZJvi7PjF1bNBLc7jDST" target="blank">Minha playlist</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/cv">My CV</a></li>
+              <li><a href="https://open.spotify.com/playlist/6zXZJvi7PjF1bNBLc7jDST" target="blank">My playlist</a></li>
             </ul>
           </nav>
       </div>
