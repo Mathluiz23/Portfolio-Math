@@ -16,6 +16,7 @@ export default function Header() {
       <div className={themePortfolio ? "header-ligth" : "header-dark"}>
         <h1>Math</h1>
         <p>.</p>
+
         <button 
           className={themePortfolio ? "button-select-ligth" : "button-select-dark"}
           type='button'
@@ -23,6 +24,7 @@ export default function Header() {
         >
           <GiBedLamp size={20} />
         </button>
+        
         <input type="checkbox" id="toggle"/>
           <label class="checkbox" for="toggle">
             <div class={themePortfolio ? "trace-ligth" : "trace-dark"}></div>
