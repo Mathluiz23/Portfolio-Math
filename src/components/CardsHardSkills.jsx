@@ -72,8 +72,6 @@ export default function CardHardSkills() {
           <a href="https://dev.mysql.com/doc/" target="blank"><SiMysql size={100}/></a>
           <h2>MySQL</h2>
         </div>
-
-        <p>Ao clicar nos cards você será redirecionado para as respectivas documentações</p>
       </div>
     </>
   );

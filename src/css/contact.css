@@ -207,12 +207,12 @@ a:hover {
 			flex-direction: column;
 			justify-content: center;
 			color: rgb(0, 0, 0);
-			width: 80%;
+			width: 100%;
 			align-items: center;
 			text-align: center;
 			height: max-content;
 			margin: auto;
-			/* border: solid violet;    */
+			margin-top: 25px;
     }
     
     .contato-dark {
@@ -220,11 +220,12 @@ a:hover {
 			flex-direction: column;
 			justify-content: center;
 			color: rgb(0, 0, 0);
-			width: 80%;
+			width: 100%;
 			align-items: center;
 			text-align: center;
 			height: max-content;
 			margin: auto;
+			margin-top: 25px;
 			/* border: solid violet;     */
     }
     
@@ -248,18 +249,19 @@ a:hover {
 
 		.contact-me {
 			display: flex;
-			align-items: center;
 			flex-direction: column;
 			margin: auto;
-			width: 80%;
+			width: 90%;
 		}
       
     .contact {
 			display: flex;
 			justify-content: flex-start;
-			width: 280px;
+			width: 50%;
+			min-width: 260px;
 			align-items: center;
-			/* border: solid rgb(232, 30, 8); */
+			text-align: center;
+			margin: auto;
     }
     
     .social-contact-dark {
@@ -289,18 +291,15 @@ a:hover {
     .contact-local-ligth {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
-			align-items:center;
-			width: 80%;
+			width: 100%;
 			height: max-content;
 			font-size: 12px;
 			margin:auto;
-			/* border: solid yellow; */
     }
     
     .contact-local-ligth a{
 			color: inherit;
-			padding: 10px;
+			/* padding: 10px; */
 			margin-top: 10px;
 			color:rgb(45, 171, 255);
 			text-decoration: none;
@@ -309,9 +308,7 @@ a:hover {
     .contact-local-dark {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
-			align-items:center;
-			width: 80%;
+			width: 100%;
 			height: max-content;
 			font-size: 12px;
 			margin:auto;
@@ -320,7 +317,7 @@ a:hover {
     
 		.contact-local-dark a{
 			color: inherit;
-			padding: 10px;
+			/* padding: 10px; */
 			margin-top: 10px;
 			color: rgb(45, 171, 255);
 			text-decoration: none;
