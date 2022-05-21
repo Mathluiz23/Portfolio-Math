@@ -16,13 +16,11 @@ export default function Projetos() {
     }
   },[setThemePortfolio])
   
-    return (
-        <>
-          <body className={ themePortfolio ? "body-ligth" : "body-dark"}>
-            <Header/>
-            <ProjetosList/>
-            <Footer/>
-          </body>
-        </>
-    );
+  return (
+    <body className={ themePortfolio ? "body-ligth" : "body-dark"}>
+      <Header/>
+      <ProjetosList/>
+      <Footer/>
+    </body>
+  );
 }

@@ -20,35 +20,33 @@ export default function Home() {
   },[setThemePortfolio])
 
 
-  console.log(themePortfolio);
-    return (
-        <body className={ themePortfolio ? "body-ligth" : "body-dark"}>
-          <Header />
-          <div className={ themePortfolio ? "body-home-ligth" : "body-home-dark"}>
-            <div className={ themePortfolio ? "quem-sou-ligth" : "quem-sou-dark"}>
-              <h1>Who I am ?!</h1>
-              <p>Olá , me chamo Matheus Luiz da Silva, tenho 26 anos e sou de São Leopoldo RS. Estudande de Desenvolvimento Web Full-Stack.
-                <br/>Sou um profissional em transição de carreira, cada dia mais dedicado, apaixonado, motivado com a área de tecnologia e desenvolvimento, buscando contribuir positivamente na vida das pessoas.
-              </p>
-            </div>
-            <div>
-              <img src={FOTO2} alt="foto-perfil"/>
-            </div>
-          </div>
-            <hr />
-            <br/>
-            <br/>
-          <div className={themePortfolio ? "hardskills-ligth" : "hardskills-dark"}>
-            <h1>Hard Skills</h1>
-            <a href="a"><VscTools size={50}/></a>
-          </div>
-          <CardsHardSkills />
-           <hr/>
-           <br/>
-           <br/>
-           <Contact/>
-           <br/>
-          <Footer/>
-        </body>
-    );
+  return (
+    <body className={ themePortfolio ? "body-ligth" : "body-dark"}>
+      <Header />
+      <div className={ themePortfolio ? "body-home-ligth" : "body-home-dark"}>
+        <div className={ themePortfolio ? "quem-sou-ligth" : "quem-sou-dark"}>
+          <h1>Who I am ?!</h1>
+          <p>
+            Hello, my name is Matheus Luiz da Silva, I'm 26 years old, I'm from Brazil and I currently live in Waterford, Ireland.
+            I'm a Full-stack Developer, I'm in career transition, motivated to use technology to positively impact people's lives.
+          </p>
+        </div>
+        <div>
+          <img src={FOTO2} alt="foto-perfil"/>
+        </div>
+      </div>
+        <hr />
+      <div className={themePortfolio ? "hardskills-ligth" : "hardskills-dark"}>
+        <h1>Hard Skills</h1>
+          <a href="a"><VscTools size={50}/></a>
+        </div>
+        <CardsHardSkills />
+          <hr/>
+          <br/>
+          <br/>
+        <Contact/>
+          <br/>
+        <Footer/>
+    </body>
+  );
 }

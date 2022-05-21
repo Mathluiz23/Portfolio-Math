@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { GiBedLamp } from "react-icons/gi";
+import { GiBedLamp } from 'react-icons/gi';
 import '../css/App.css';
 import '../css/header.css';
 import PortfolioContext from '../context/PortfolioContext';
@@ -7,7 +7,7 @@ import PortfolioContext from '../context/PortfolioContext';
 export default function Header() {
   const { setThemePortfolio, themePortfolio} = useContext(PortfolioContext);
 
-  function handleButtonDark(target) {
+  function handleButtonDark() {
     setThemePortfolio(!themePortfolio);
   };
 
@@ -19,7 +19,7 @@ export default function Header() {
         <button 
           className={themePortfolio ? "button-select-ligth" : "button-select-dark"}
           type='button'
-          onClick={ (target) => handleButtonDark(target) }
+          onClick={ () => handleButtonDark() }
         >
           <GiBedLamp size={20} />
         </button>

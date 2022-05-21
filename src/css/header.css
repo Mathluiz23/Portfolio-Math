@@ -1,211 +1,199 @@
-/* * {
-    padding: 0; 
-    margin: 0;
-  }
-  
-body, html{
-    font-family: 'Poppins', sans-serif;
-  
-} */
-
 .header-ligth {
-    z-index: 10;
-    display: flex;
-    position: fixed;
-    background: rgb(255, 255, 255);
-    width: 100%;
-    height: 75px;
-    box-shadow: 0px 6px 5px rgb(180, 180, 180);
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 6px 5px rgb(180, 180, 180);
+  display: flex;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
   
-.header-ligth p{
-    font-size: 80px;
-    margin: -42px -2px;
-    color: rgb(45, 171, 255);
+.header-ligth p {
+  color: rgb(45, 171, 255);
+  font-size: 80px;
+  margin: -33px -5px;
 }
   
 .header-dark {
-    z-index: 10;
-    display: flex;
-    position: fixed;
-    background: rgb(0, 0, 0);
-    width: 100%;
-    height: 75px;
-    box-shadow: 0px 2px 10px rgb(45, 171, 255);
-    /* border: solid yellow; */
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 2px 10px rgb(45, 171, 255);
+  display: flex;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  /* border: solid yellow; */
+  z-index: 10;
     
 }
   
-.header-dark p{
-    font-size: 80px;
-    margin: -42px -2px;
-    color: rgb(45, 171, 255);
+.header-dark p {
+  color: rgb(45, 171, 255);
+  font-size: 80px;
+  margin: -33px -5px;
 }
 
 .header-container-ligth h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    /* margin: 8px 8px; */
-    margin-left: 30px;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  /* margin: 8px 8px; */
 }
   
 .header-container-dark h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    /* margin: 8px 8px; */
-    margin-left: 30px;
-    color:white;
+  color:white;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  /* margin: 8px 8px; */
 }
 
-.button-select-dark{
-    margin: 20px;
-    border-style: none;
-    width: 25px;
-    height: 25px;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+.button-select-dark {
+  background-color: rgb(0, 0, 0);
+  border-style: none;
+  color: #ffffff;
+  height: 25px;
+  margin: 40px;
+  margin-top: 28px;
+  width: 25px;
 }
 
-.button-select-ligth{
-    margin: 20px;
-    border-style: none;
-    width: 25px;
-    height: 25px;
-    background-color: rgb(255, 255, 255);
+.button-select-ligth {
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  height: 25px;
+  margin: 40px;
+  margin-top: 28px;
+  width: 25px;
 }
-
-
 
 /* MENU 3 TRAÇOS COM ANIMAÇÃO */
 
 .checkbox {
-    height: 80px;
-    width: 60px;
-    position: fixed;
-    top: 0;
-    right: 20px;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 11;
-    transition: 80ms ease-in-out 0s;
-    
+  cursor: pointer;
+  height: 80px;
+  justify-content: center;
+  position: fixed;
+  right: 20px;
+  top: 0;
+  transition: 80ms ease-in-out 0s;
+  width: 60px;
+  z-index: 11;
 }
   
 .checkbox .trace-ligth {
-    width: 50px;
-    height: 4px;
-    background-color: black;
-    position: absolute;
-    border-radius: 10px;
-    transition: 0.8s ease-in-out;
+  background-color: black;
+  border-radius: 10px;
+  height: 4px;
+  position: absolute;
+  transition: 0.8s ease-in-out;
+  width: 50px;
 }
   
 .checkbox .trace-ligth:nth-child(1) {
-    top: 14px;
-    transform: rotate(0);
+  top: 14px;
+  transform: rotate(0);
 }
   
 .checkbox .trace-ligth:nth-child(2) {
-    top: 34px;
-    transform: rotate(0);
+  top: 34px;
+  transform: rotate(0);
 }
   
 .checkbox .trace-ligth:nth-child(3) {
-    top: 54px;
-    transform: rotate(0);
+  top: 54px;
+  transform: rotate(0);
 }
   
   /* MENU DARK COM TRAÇO BRANCO */
 .checkbox .trace-dark {
-    width: 50px;
-    height: 4px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    border-radius: 10px;
-    transition: 0.8s ease-in-out;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 4px;
+  position: absolute;
+  transition: 0.8s ease-in-out;
+  width: 50px;
 }
   
 .checkbox .trace-dark:nth-child(1) {
-    top: 14px;
-    transform: rotate(0);
+  top: 14px;
+  transform: rotate(0);
 }
   
 .checkbox .trace-dark:nth-child(2) {
-    top: 34px;
-    transform: rotate(0);
+  top: 34px;
+  transform: rotate(0);
 }
   
 .checkbox .trace-dark:nth-child(3) {
-    top: 54px;
-    transform: rotate(0);
+  top: 54px;
+  transform: rotate(0);
 }
   /* MENU DARK COM TRAÇO BRANCO */
   
 #toggle {
-    display: none;
+  display: none;
 }
 
 /* animação do menu */
 
 #toggle:checked + .checkbox .trace-ligth:nth-child(1) {
-    transform: rotate(45deg);
-    top: 47px;
+  top: 47px;
+  transform: rotate(45deg);
   
 }
   
 #toggle:checked + .checkbox .trace-ligth:nth-child(2) {
-    transform: translate(-100px);
-    width: 30px;
-    visibility: hidden;
-    opacity: 0;  
+  opacity: 0;
+  transform: translate(-100px);
+  visibility: hidden;
+  width: 30px;
 }
   
 #toggle:checked + .checkbox .trace-ligth:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 48px; 
+  top: 48px; 
+  transform: rotate(-45deg);
 }
   
   /* MENU DARK TRAÇO BRANCO */
 #toggle:checked + .checkbox .trace-dark:nth-child(1) {
-    color: white;
-    transform: rotate(45deg);
-    top: 47px;
-  
+  color: white;
+  top: 47px;
+  transform: rotate(45deg);
 }
   
 #toggle:checked + .checkbox .trace-dark:nth-child(2) {
-    color: white;
-    transform: translate(-100px);
-    width: 30px;
-    visibility: hidden;
-    opacity: 0;  
+  color: white;
+  opacity: 0;  
+  transform: translate(-100px);
+  visibility: hidden;
+  width: 30px;
 }
   
 #toggle:checked + .checkbox .trace-dark:nth-child(3) {
-    color: white;
-    transform: rotate(-45deg);
-    top: 48px; 
+  color: white;
+  top: 48px;
+  transform: rotate(-45deg);
 }
-  
-  /* MENU BRANCO TRAÇO DARK */
+
+/* MENU BRANCO TRAÇO DARK */
   
 #toggle:checked + .checkbox {
-    background-color: #363636;
+  background-color: #363636;
 }
   
 #toggle:checked ~ .menu {
-    box-shadow: -180px 90px 15px 150vh #363636;
-    z-index: 1;
+  box-shadow: -180px 90px 15px 150vh #363636;
+  z-index: 1;
 }
   
 #toggle:checked ~ .menu-items {
-    visibility: visible;
-    opacity: 1;
+  opacity: 1;
+  visibility: visible;
 }
-
-
 
 /* Responsividade */
 
@@ -213,97 +201,97 @@ body, html{
 (min-width: 200px) and
 (max-width: 780px) {
 
-    .header-ligth p{
-      font-size: 55px;
-      margin: -15px -8px;
-      color: rgb(45, 171, 255);
-    }
-      
-    .header-dark p{
-      font-size: 55px;
-      margin: -15px -8px;
-      color: rgb(45, 171, 255);
-    }
+  .header-ligth p{
+    font-size: 55px;
+    margin: -15px -8px;
+    color: rgb(45, 171, 255);
+  }
+  
+  .header-dark p{
+    font-size: 55px;
+    margin: -15px -8px;
+    color: rgb(45, 171, 255);
+  }
+  
+  .header-container-ligth h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 18px 8px;
+    margin-left:20px;
+  }
     
-    .header-container-ligth h1 {
-      font-size: 25px;
-      text-transform: uppercase;
-      letter-spacing: 4px;
-      margin: 18px 8px;
-      margin-left:20px;
-    }
-      
-    .header-container-dark h1 {
-      font-size: 25px;
-      text-transform: uppercase;
-      letter-spacing: 4px;
-      margin: 18px 8px;
-      margin-left:20px;
-      color:white;
-    }
-    
-    .button-select-dark {
-      margin-left: 20px;
-      margin-top: 24px;
-      border-style: none;
-      background-color: rgb(0, 0, 0);
-      color: #ffffff;
-    }
-    
-    .button-select-ligth{
-      margin-left: 20px;
-      margin-top: 24px;
-      border-style: none;
+  .header-container-dark h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 18px 8px;
+    margin-left:20px;
+    color:white;
+  }
+  
+  .button-select-dark {
+    margin-left: 20px;
+    margin-top: 24px;
+    border-style: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+  }
+  
+  .button-select-ligth {
+    margin-left: 20px;
+    margin-top: 24px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .checkbox .trace-ligth {
+      width: 40px;
+      height: 4px;
+      background-color: black;
+      position: absolute;
+      border-radius: 10px;
+      transition: 0.8s ease-in-out;
+  }
+
+  .checkbox .trace-dark {
+      width: 40px;
+      height: 4px;
       background-color: rgb(255, 255, 255);
-    }
-    
-    .checkbox .trace-ligth {
-        width: 40px;
-        height: 4px;
-        background-color: black;
-        position: absolute;
-        border-radius: 10px;
-        transition: 0.8s ease-in-out;
-    }
-
-    .checkbox .trace-dark {
-        width: 40px;
-        height: 4px;
-        background-color: rgb(255, 255, 255);
-        position: absolute;
-        border-radius: 10px;
-        transition: 0.8s ease-in-out;
-    }
+      position: absolute;
+      border-radius: 10px;
+      transition: 0.8s ease-in-out;
+  }
 
 
-.checkbox .trace-ligth:nth-child(1) {
+  .checkbox .trace-ligth:nth-child(1) {
     top: 14px;
     transform: rotate(0);
-}
-  
-.checkbox .trace-ligth:nth-child(2) {
+  }
+
+  .checkbox .trace-ligth:nth-child(2) {
     top: 28px;
     transform: rotate(0);
-}
-  
-.checkbox .trace-ligth:nth-child(3) {
+  }
+
+  .checkbox .trace-ligth:nth-child(3) {
     top: 42px;
     transform: rotate(0);
-}
-  
-.checkbox .trace-dark:nth-child(1) {
+  }
+
+  .checkbox .trace-dark:nth-child(1) {
     top: 14px;
     transform: rotate(0);
-}
-  
-.checkbox .trace-dark:nth-child(2) {
+  }
+
+  .checkbox .trace-dark:nth-child(2) {
     top: 28px;
     transform: rotate(0);
-}
-  
-.checkbox .trace-dark:nth-child(3) {
+  }
+
+  .checkbox .trace-dark:nth-child(3) {
     top: 42px;
     transform: rotate(0);
-}
+  }
 
 }

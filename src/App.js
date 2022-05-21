@@ -7,13 +7,12 @@ import '../src/css/App.css';
 function App() {
   return (
     <div>
-        <PortfolioProvider>
-          <Routes>
-            <Route path="/projetos" element={ <Projetos /> } />
-            <Route exatc path="/" element={< Home />} />
-          </Routes>
-        </PortfolioProvider>
-
+      <PortfolioProvider>
+        <Routes>
+          <Route path="/projetos" element={ <Projetos /> } />
+          <Route exatc path="/" element={< Home />} />
+        </Routes>
+      </PortfolioProvider>
     </div>
   );
 }
