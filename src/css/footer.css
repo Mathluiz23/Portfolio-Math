@@ -1,16 +1,4 @@
-/* * {
-  padding: 0; 
-  margin: 0;
-}
-
- body, html{
-  font-family: 'Poppins', sans-serif;
-
-} */
-
-
 .footer-ligth {
-    /* border: solid red; */
     display: flex;
     margin-top: 100px;
     width: 100%;
@@ -48,7 +36,6 @@
 .social-media-ligth {
     display: flex;
     justify-content: flex-end;
-    /* border: solid green; */
     width: 90%;
     margin-top: 20px;
 }
@@ -131,7 +118,6 @@ a:hover {
     height: 120px;
     font-size: 11px;
     color: rgb(187, 187, 187);
-    /* border: solid indianred; */
   }
   
   

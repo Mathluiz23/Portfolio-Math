@@ -42,10 +42,7 @@ export default function Home() {
         </div>
         <CardsHardSkills />
           <hr/>
-          <br/>
-          <br/>
         <Contact/>
-          <br/>
         <Footer/>
     </body>
   );
