@@ -4,68 +4,50 @@ import '../css/App.css';
 
 export default function ProjetosList() {
   const { themePortfolio} = useContext(PortfolioContext);
+
+  const projects = [
+    { 
+      project: 'Project Name',
+      view: 'come see!',
+      about:'Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into practice.'
+    },
+    { 
+      project: 'Project Name 2',
+      view: 'come see!',
+      about:'Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into practice.'
+    },
+    { 
+      project: 'Project Name 3',
+      view: 'come see!',
+      about:'Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into practice.'
+    },
+    { 
+      project: 'Project Name 4',
+      view: 'come see!',
+      about:'Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into practice.'
+    },
+    { 
+      project: 'Project Name 5',
+      view: 'come see!',
+      about:'Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into practice.'
+    },
+  ]
   
   return (
     <div className={ themePortfolio ? "container-ligth" : "container-dark" }>
+      {projects.map(({project, view, about}) => 
       <div className="card-container">
         <div className="card">
           <div className="card-wrapper">
-            <h2>Project 1</h2>
-            <p>come see!</p>
+            <h3>{project}</h3>
+            <p>{view}</p>
           </div>     
         </div>
         <div className={ themePortfolio ? "card-text-ligth" : "card-text-dark"}>
-          Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into practice.
+          {about}
         </div>
       </div>
-
-      <div className="card-container">
-        <div className="card">
-          <div className="card-wrapper">
-            <h2>Project 2</h2>
-            <p>come see!</p>
-          </div>
-        </div>
-        <div className={ themePortfolio ? "card-text-ligth" : "card-text-dark"}>
-          Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into pratice.
-        </div> 
-      </div>
-
-      <div className="card-container">
-        <div className="card">
-          <div className="card-wrapper">
-            <h2>Project 3</h2>
-            <p>Come see!</p>
-          </div>
-        </div>
-        <div className={ themePortfolio ? "card-text-ligth" : "card-text-dark"}>
-          Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into pratice.
-        </div> 
-      </div>
-
-      <div className="card-container">
-        <div className="card">
-          <div className="card-wrapper">
-            <h2>Project 4</h2>
-            <p>Come see!</p>
-          </div>
-        </div>
-        <div className={ themePortfolio ? "card-text-ligth" : "card-text-dark"}>
-          Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into pratice.
-        </div> 
-      </div>
-
-      <div className="card-container">
-        <div className="card">
-          <div className="card-wrapper">
-            <h2>Project 5</h2>
-            <p>Come see!</p>
-          </div>
-        </div>
-        <div className={ themePortfolio ? "card-text-ligth" : "card-text-dark"}>
-          Here it contains a project carried out at Trybe, in the Web development course. Putting the acquired knowledge into pratice.
-        </div> 
-      </div>
+      )}
     </div> 
   );
 }
