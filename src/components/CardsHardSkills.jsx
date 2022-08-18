@@ -25,32 +25,32 @@ export default function CardHardSkills() {
 
   ];
 
-  function getStackIcon(skill) {
+  function getStackIcon(skill, size) {
     switch (skill) {
-      case 'Javascript':
-        return <DiJavascript/>
+      case 'JavaScript':
+        return <DiJavascript size={size}/>
       case 'React':
-        return <SiReact/>
+        return <SiReact size={size}/>
       case 'React Redux':
-        return <SiRedux/>
+        return <SiRedux size={size}/>
       case 'Html 5':
-        return <FaHtml5/>
+        return <FaHtml5 size={size}/>
       case 'CSS 3':
-        return <FaCss3Alt/>
+        return <FaCss3Alt size={size}/>
       case 'Hooks + Context':
-        return <SiReact/>
+        return <SiReact size={size}/>
       case 'Node.js':
-        return <FaNodeJs/>
+        return <FaNodeJs size={size}/>
       case 'Typescript':
-        return <SiTypescript/>
+        return <SiTypescript size={size}/>
       case 'Git':
-        return <FaGitAlt/>
+        return <FaGitAlt size={size}/>
       case 'GitHub':
-        return <FaGithub/>
+        return <FaGithub size={size}/>
       case 'Docker':
-        return <GrDocker/>
+        return <GrDocker size={size}/>
       case 'MySql':
-        return <SiMysql/>
+        return <SiMysql size={size}/>
       default:
         break;
     }
@@ -62,8 +62,7 @@ export default function CardHardSkills() {
         { myHardSkills.map(({skill, document}) =>
         <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
           <a  href={document} target="blank">
-            <DiJavascript size={100}/>
-            {getStackIcon(skill)}
+            {getStackIcon(skill, 100)}
           </a>
           <h2>{skill}</h2>
         </div>
