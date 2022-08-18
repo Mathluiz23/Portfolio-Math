@@ -9,69 +9,65 @@ import '../css/App.css';
 export default function CardHardSkills() {
   const { themePortfolio } = useContext(PortfolioContext);
 
+  const myHardSkills = [
+    { skill: 'JavaScript', document: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"},
+    { skill: 'React', document: "https://pt-br.reactjs.org/docs/getting-started.html"},
+    { skill: 'React Redux', document: "https://redux.js.org/"},
+    { skill: 'Html 5', document: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"},
+    { skill: 'CSS 3', document: "https://developer.mozilla.org/pt-BR/docs/Web/CSS"},
+    { skill: 'Hooks + Context', document: "https://pt-br.reactjs.org/docs/hooks-reference.html"},
+    { skill: 'Node.js', document: "https://nodejs.org/en/"},
+    { skill: 'Typescript', document: "https://www.typescriptlang.org/"},
+    { skill: 'Git', document: "https://git-scm.com/docs/git/pt_BR"},
+    { skill: 'GitHub', document: "https://docs.github.com/pt"},
+    { skill: 'Docker', document: "https://docs.docker.com/"},
+    { skill: 'MySql', document: "https://dev.mysql.com/doc/"},
+
+  ];
+
+  function getStackIcon(skill) {
+    switch (skill) {
+      case 'Javascript':
+        return <DiJavascript/>
+      case 'React':
+        return <SiReact/>
+      case 'React Redux':
+        return <SiRedux/>
+      case 'Html 5':
+        return <FaHtml5/>
+      case 'CSS 3':
+        return <FaCss3Alt/>
+      case 'Hooks + Context':
+        return <SiReact/>
+      case 'Node.js':
+        return <FaNodeJs/>
+      case 'Typescript':
+        return <SiTypescript/>
+      case 'Git':
+        return <FaGitAlt/>
+      case 'GitHub':
+        return <FaGithub/>
+      case 'Docker':
+        return <GrDocker/>
+      case 'MySql':
+        return <SiMysql/>
+      default:
+        break;
+    }
+  }
+
   return (
     <>
       <div className='hardSkills-container'>
-
+        { myHardSkills.map(({skill, document}) =>
         <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a  href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="blank"><DiJavascript size={100}/></a>
-          <h2>JavaScript</h2>
+          <a  href={document} target="blank">
+            <DiJavascript size={100}/>
+            {getStackIcon(skill)}
+          </a>
+          <h2>{skill}</h2>
         </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="blank"><SiReact size={100}/></a>
-          <h2>React</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://redux.js.org/" target="blank"><SiRedux size={100}/></a>
-          <h2>React Redux</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="blank"><FaHtml5 size={100}/></a>
-          <h2>Html 5</h2>  
-        </div>
-        
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="blank"><FaCss3Alt size={100}/></a>
-          <h2>CSS 3</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a  href="https://pt-br.reactjs.org/docs/hooks-reference.html" target="blank"><SiReact size={100}/></a>
-          <h2>Hooks + Context</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a  href="https://nodejs.org/en/" target="blank"><FaNodeJs size={100}/></a>
-          <h2>Node.js</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a  href="https://www.typescriptlang.org/" target="blank"><SiTypescript size={100}/></a>
-          <h2>Typescript</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://git-scm.com/docs/git/pt_BR" target="blank"><FaGitAlt size={100}/></a>
-          <h2>Git</h2>  
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://docs.github.com/pt" target="blank"><FaGithub size={100}/></a>
-          <h2>GitHub</h2>  
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://docs.docker.com/" target="blank"><GrDocker size={100}/></a>
-          <h2>Docker</h2>
-        </div>
-
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a href="https://dev.mysql.com/doc/" target="blank"><SiMysql size={100}/></a>
-          <h2>MySQL</h2>
-        </div>
+        )};
       </div>
     </>
   );
