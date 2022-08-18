@@ -10,62 +10,30 @@ export default function CardHardSkills() {
   const { themePortfolio } = useContext(PortfolioContext);
 
   const myHardSkills = [
-    { skill: 'JavaScript', document: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"},
-    { skill: 'React', document: "https://pt-br.reactjs.org/docs/getting-started.html"},
-    { skill: 'React Redux', document: "https://redux.js.org/"},
-    { skill: 'Html 5', document: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"},
-    { skill: 'CSS 3', document: "https://developer.mozilla.org/pt-BR/docs/Web/CSS"},
-    { skill: 'Hooks + Context', document: "https://pt-br.reactjs.org/docs/hooks-reference.html"},
-    { skill: 'Node.js', document: "https://nodejs.org/en/"},
-    { skill: 'Typescript', document: "https://www.typescriptlang.org/"},
-    { skill: 'Git', document: "https://git-scm.com/docs/git/pt_BR"},
-    { skill: 'GitHub', document: "https://docs.github.com/pt"},
-    { skill: 'Docker', document: "https://docs.docker.com/"},
-    { skill: 'MySql', document: "https://dev.mysql.com/doc/"},
-
+    { skill: 'JavaScript', doc: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript", icon:<DiJavascript size={100}/>},
+    { skill: 'React', doc: "https://pt-br.reactjs.org/docs/getting-started.html", icon:<SiReact size={100}/>},
+    { skill: 'React Redux', doc: "https://redux.js.org/", icon:<SiRedux size={100}/>},
+    { skill: 'Html 5', doc: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element", icon:<FaHtml5 size={100}/>},
+    { skill: 'CSS 3', doc: "https://developer.mozilla.org/pt-BR/docs/Web/CSS", icon:<FaCss3Alt size={100}/>},
+    { skill: 'Hooks + Context', doc: "https://pt-br.reactjs.org/docs/hooks-reference.html", icon:<SiReact size={100}/>},
+    { skill: 'Node.js', doc: "https://nodejs.org/en/", icon:<FaNodeJs size={100}/>},
+    { skill: 'Typescript', doc: "https://www.typescriptlang.org/", icon:<SiTypescript size={100}/>},
+    { skill: 'Git', doc: "https://git-scm.com/docs/git/pt_BR", icon:<FaGitAlt size={100}/>},
+    { skill: 'GitHub', doc: "https://docs.github.com/pt", icon:<FaGithub size={100}/>},
+    { skill: 'Docker', doc: "https://docs.docker.com/", icon:<GrDocker size={100}/>},
+    { skill: 'MySql', doc: "https://dev.mysql.com/doc/", icon:<SiMysql size={100}/>},
   ];
-
-  function getStackIcon(skill, size) {
-    switch (skill) {
-      case 'JavaScript':
-        return <DiJavascript size={size}/>
-      case 'React':
-        return <SiReact size={size}/>
-      case 'React Redux':
-        return <SiRedux size={size}/>
-      case 'Html 5':
-        return <FaHtml5 size={size}/>
-      case 'CSS 3':
-        return <FaCss3Alt size={size}/>
-      case 'Hooks + Context':
-        return <SiReact size={size}/>
-      case 'Node.js':
-        return <FaNodeJs size={size}/>
-      case 'Typescript':
-        return <SiTypescript size={size}/>
-      case 'Git':
-        return <FaGitAlt size={size}/>
-      case 'GitHub':
-        return <FaGithub size={size}/>
-      case 'Docker':
-        return <GrDocker size={size}/>
-      case 'MySql':
-        return <SiMysql size={size}/>
-      default:
-        break;
-    }
-  }
 
   return (
     <>
       <div className='hardSkills-container'>
-        { myHardSkills.map(({skill, document}) =>
-        <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
-          <a  href={document} target="blank">
-            {getStackIcon(skill, 100)}
-          </a>
-          <h2>{skill}</h2>
-        </div>
+        { myHardSkills.map(({skill, doc, icon}) =>
+          <div className={ themePortfolio ? "hardSkills-card-ligth" :"hardSkills-card-dark"}>
+            <a  href={doc} target="blank">
+              {icon}
+            </a>
+            <h2>{skill}</h2>
+          </div>
         )};
       </div>
     </>
